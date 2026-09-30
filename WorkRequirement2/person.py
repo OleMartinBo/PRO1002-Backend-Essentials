@@ -1,1 +1,1 @@
-# 3. Simple Class and Inheritance
+# Exercise 3. Simple Class and Inheritance
