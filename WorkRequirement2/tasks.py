@@ -8,5 +8,7 @@ def add_task(task_list, task):
 def remove_task(task_list, task): 
     if task in task_list:
         task_list.remove(task)
+        return True
     else:
         print(f'Task "{task}" not found in the list.')
+        return False
