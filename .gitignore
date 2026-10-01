@@ -1,1 +1,3 @@
 WorkRequirement2/WR2sources.md 
+__pycache__/
+*.pyc
