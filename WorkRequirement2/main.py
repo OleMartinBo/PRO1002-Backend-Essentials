@@ -1,4 +1,5 @@
 import tasks #Main script imports tasks.py for Exercise 2
+import person #Main script imports person.py for Exercise 3
 
 
 
@@ -37,3 +38,6 @@ while True:
     
     #Print the updated list after each operation.
     print(f'Your current task list: {task_list}')
+    
+
+#Exercise 3. Simple Class and Inheritance
