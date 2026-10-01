@@ -5,7 +5,7 @@ import person #Main script imports person.py for Exercise 3
 
 #Exercise 2. Task List Manager (with separate module)
 #Starts with an empty list.
-task_list = [] 
+task_list = []
 
 #Repeatedly ask the user for input: "add", "remove", or "done".
 while True:
@@ -48,4 +48,4 @@ student1 = person.Student('Ola', 20, 12345)
 student1.greet() 
 
 #Calls the print_student_id() method from the Student class to print the student's student_id.
-student1.print_student_id()  
+student1.print_student_id() 
