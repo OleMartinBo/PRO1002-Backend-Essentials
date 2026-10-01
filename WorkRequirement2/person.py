@@ -18,6 +18,3 @@ class Student(Person):
         
     def print_student_id(self):
         print(f'{self.name} Your student ID is: {self.student_id}')
-        
-#In your main script, create a Student object and call its greet() method.
-#Print the student's student_id as well.

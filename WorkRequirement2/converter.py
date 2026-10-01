@@ -1,4 +1,4 @@
-# Exercise 1. File to List Converter
+#Exercise 1. File to List Converter
 
 #Handles the try/except for file to List Converter
 try:

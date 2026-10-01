@@ -1,7 +1,6 @@
 import tasks #Main script imports tasks.py for Exercise 2
 import person #Main script imports person.py for Exercise 3
-
-
+#from person import Student - Alternative solution for importing
 
 
 #Exercise 2. Task List Manager (with separate module)
@@ -41,3 +40,12 @@ while True:
     
 
 #Exercise 3. Simple Class and Inheritance
+
+#Creates a Student object 
+student1 = person.Student('Ola', 20, 12345)
+
+#Calls its greet() method from the Person class to print a greeting message.
+student1.greet() 
+
+#Calls the print_student_id() method from the Student class to print the student's student_id.
+student1.print_student_id()  
