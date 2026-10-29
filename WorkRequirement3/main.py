@@ -2,7 +2,7 @@
 import socket
 
 def resolve_hostname():
-    "Function to resolve a hostname from user input"
+    """Function to resolve a hostname from user input"""
     hostname = input("Enter a hostname: ")
 
     #Gets the IP address by using the socket module library and gethostbyname function
